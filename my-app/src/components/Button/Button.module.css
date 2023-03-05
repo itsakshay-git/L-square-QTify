@@ -1,0 +1,6 @@
+.button{
+    height: "60px";
+    border-radius: "10px";
+    background-color: var(--color-black);
+    color: var(--color-primary);
+}
