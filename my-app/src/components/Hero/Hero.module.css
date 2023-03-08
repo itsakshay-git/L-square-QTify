@@ -1,0 +1,14 @@
+.herosection{
+    height: 30vh;
+    width: 100%;
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black);
+}
+
+.herocontent{
+    padding-right: 20px;
+    text-align: center;
+}
