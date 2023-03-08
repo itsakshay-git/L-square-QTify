@@ -1,0 +1,25 @@
+.maincard{
+    height: 36vh;
+    width: 200px;
+    border-radius: 15px;
+    background-color: var(--color-white);
+}
+
+.cardbutton{
+    height: 30px;
+    width: 100px;
+    color: var(--color-white);
+    border-radius: 10px;
+    background-color: var(--color-black);
+    font-size: small;
+    border-style: none;
+
+}
+
+.cardfooter{
+    height: 6vh;
+    padding-left: 5px; 
+    display: flex; 
+    justify-content: left; 
+    align-items:center;
+}
