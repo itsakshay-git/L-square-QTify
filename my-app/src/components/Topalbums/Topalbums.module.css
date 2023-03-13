@@ -1,3 +1,8 @@
+.albumcontainer{
+    width: 100%;
+}
+
+
 .titles{
     display: flex;
     justify-content: space-between;
@@ -12,9 +17,13 @@
 }
 
 .cards{
-    height: 40vh;
+    /* height: 40vh; */
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
     background-color: var(--color-black);
 }
 
