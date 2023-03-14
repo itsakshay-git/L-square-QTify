@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Cards from "../Cards/Cards";
-import styles from "./Topalbums.module.css";
+import styles from "./Albums.module.css";
 import Carousel from "../Carousel/Carousel";
 
 const Topalbums = ({ albums, albumData }) => {
@@ -31,7 +31,7 @@ const Topalbums = ({ albums, albumData }) => {
         <section className={styles.cards}>
           {card.map((cardele) => (
             <Cards cardData={{
-              // id: cardele.id,
+              id: cardele.id,
               title: cardele.title,
               image: cardele.image,
               follows: cardele.follows,
