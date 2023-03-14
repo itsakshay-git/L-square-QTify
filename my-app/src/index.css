@@ -49,3 +49,8 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+
+.swiper-slide{
+  width: auto !important;
+}

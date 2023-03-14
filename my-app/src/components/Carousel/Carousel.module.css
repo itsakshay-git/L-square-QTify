@@ -1,0 +1,15 @@
+.prev{
+    position: absolute;
+    left: 1%;
+    top: 40%;
+    z-index: 50;
+    transform: translateY(-50%);
+}
+
+.next{
+    position: absolute;
+    right: 1%;
+    top: 40%;
+    z-index: 50;
+    transform: translateY(-50%);
+}

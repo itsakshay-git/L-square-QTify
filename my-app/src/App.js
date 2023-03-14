@@ -1,14 +1,12 @@
 import React from 'react';
-import Hero from './components/Hero/Hero';
+import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
-import Topalbums from './components/Topalbums/Topalbums';
 
 const App = () => {
   return (
     <>
     <Navbar />
-    <Hero />
-    <Topalbums />
+    <Home />
     </>
   )
 }

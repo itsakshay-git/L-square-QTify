@@ -1,5 +1,8 @@
 .albumcontainer{
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 59px;
 }
 
 
@@ -7,24 +10,29 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px 10px 20px;
-    background-color: var(--color-black);
+    /* padding: 10px 20px 10px 20px; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     color: var(--color-white);
 }
 
 .showall{
     color: var(--color-primary);
+    cursor: pointer;
 }
 
 .cards{
-    /* height: 40vh; */
     padding-left: 20px;
     padding-right: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    align-items: center;
-    background-color: var(--color-black);
+}
+
+.carouselstyle{
+    margin-left: 40px;
+    margin-left: 40px;
 }
 
 

@@ -1,15 +1,23 @@
 import axios from 'axios';
 
 
-const URL = "https://qtify-backend-labs.crio.do"
+const AlbumsURL = "https://qtify-backend-labs.crio.do";
 
-async function getTopAlbum(){
+ export async function getTopAlbum(){
     try{
-       let response = await axios.get(`${URL}/albums/top`);
+       let response = await axios.get(`${AlbumsURL}/albums/top`);
        return response.data
     }catch(e){
         console.log(e)
     }
 }
 
-export default getTopAlbum
+export async function getNewAlbum(){
+    try{
+       let response = await axios.get(`${AlbumsURL}/albums/new`);
+       return response.data
+    }catch(e){
+        console.log(e)
+    }
+}
+
