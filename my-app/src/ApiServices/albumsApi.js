@@ -21,3 +21,21 @@ export async function getNewAlbum(){
     }
 }
 
+export  async function getGenres(){
+    try{
+       let response = await axios.get(`${AlbumsURL}/genres`);
+       return response.data
+    }catch(e){
+        console.log(e)
+    }
+}
+
+export  async function getSongs(){
+    try{
+       let response = await axios.get(`${AlbumsURL}/songs`);
+       return response.data
+    }catch(e){
+        console.log(e)
+    }
+}
+

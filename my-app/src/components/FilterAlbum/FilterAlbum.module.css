@@ -1,0 +1,20 @@
+.tabstyles{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.maintab{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.filterstyle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: var(--color-white);
+}

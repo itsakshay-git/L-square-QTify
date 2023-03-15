@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './Home.module.css';
 import Hero from '../Hero/Hero';
 import Albums from '../Albums/Albums';
-import { getTopAlbum, getNewAlbum }from "../../ApiServices/albumsApi";
+import { getTopAlbum, getNewAlbum, getSongs }from "../../ApiServices/albumsApi";
+import FilterAlubm from '../FilterAlbum/FilterAlbum'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
         <Hero />
         <Albums albums="Top Albums" albumData={getTopAlbum}/>
         <Albums albums="New Albums" albumData={getNewAlbum}/>
+        <FilterAlubm albums="Songs" albumData={getSongs} />
     </div>
   )
 }

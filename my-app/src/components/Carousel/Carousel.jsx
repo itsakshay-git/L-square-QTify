@@ -11,8 +11,8 @@ const Carousel = ({cardData, coolLearningByCrio}) => {
     <Swiper
     spaceBetween={40}
     slidesPerView={"auto"}
-    onSlideChange={() => console.log('slide change')}
-    onSwiper={(swiper) => console.log(swiper)}
+    // onSlideChange={() => console.log('slide change')}
+    // onSwiper={(swiper) => console.log(swiper)}
   >
     <SlidePrevButton />
     {cardData.map((ele) => (

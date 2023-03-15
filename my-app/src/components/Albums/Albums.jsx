@@ -17,10 +17,10 @@ const Topalbums = ({ albums, albumData }) => {
   
   return (
     <section className={styles.albumcontainer}>
-      <section className={styles.titles}>
+      <div className={styles.titles}>
         <p>{albums}</p>
         <p className={styles.showall} onClick={() => setshowalbum(!showallbum)}>{showallbum ? "Show All" : "Collapse"}</p>
-      </section>
+      </div>
       {showallbum ? (
         // <Carousel  cardData={card} coolLearningByCrio={({title, image}) => <Cards title={title} image={image} type="album"/>}/>
         // aware about namming will change it later :D
