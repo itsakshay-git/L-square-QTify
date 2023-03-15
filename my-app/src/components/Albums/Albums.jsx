@@ -12,7 +12,7 @@ const Topalbums = ({ albums, albumData }) => {
         setcard(data)
       })
  
-  }, [])
+  })
 
   
   return (
