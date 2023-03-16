@@ -1,5 +1,6 @@
 import React from "react";
-import styles from './Cards.module.css'
+import styles from './Cards.module.css';
+import Tooltip from '@mui/material/Tooltip';
 
 const Cards = ({cardData}) => {
   const {id, title, image, follows} = cardData;
@@ -7,6 +8,7 @@ const Cards = ({cardData}) => {
   
   return (
     <>
+    <Tooltip title={title} arrow>
         <section style={{ width: "190px" }} key={id} >
           <div className={styles.maincard}>
             <div>
@@ -24,6 +26,7 @@ const Cards = ({cardData}) => {
             <p>{title}</p>
           </section>
         </section>
+    </Tooltip>
     </>
   );
 };
