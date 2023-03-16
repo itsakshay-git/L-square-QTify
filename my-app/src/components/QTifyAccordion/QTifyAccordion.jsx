@@ -18,14 +18,13 @@ const QTifyAccordion = () => {
           aria-controls="panel1a-content"
           id="panel1a-header"
         >
-          <Typography>Accordion 1</Typography>
+          <Typography>Is QTify free to use?</Typography>
         </AccordionSummary>
         <AccordionDetails
         sx={{borderRadius: "9px", textAlign: 'left', padding: "0px", marginTop: "30px", marginBottom:"30px", paddingLeft: "20px", paddingRight: "20px"}}
         >
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Yes! It is 100% free, and has 0% ads!
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -36,14 +35,13 @@ const QTifyAccordion = () => {
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography>Accordion 2</Typography>
+          <Typography>Can I download and listen to songs offline?</Typography>
         </AccordionSummary>
         <AccordionDetails
         sx={{borderRadius: "9px", textAlign: 'left', padding: "0px", marginTop: "30px", marginBottom:"30px", paddingLeft: "20px", paddingRight: "20px"}}
         >
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            Sorry, unfortunately we don't provide the service to download any songs.
           </Typography>
         </AccordionDetails>
       </Accordion>
